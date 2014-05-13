@@ -27,7 +27,7 @@ fi
 export MIDASSYS
 echo MIDASSYS is now $MIDASSYS
 
-export LD_LIBRARY_PATH=$PWD/libraries:$MIDASSYS/linux/lib
+export LD_LIBRARY_PATH=$GRSISYS/libraries:$MIDASSYS/linux/lib
 
 cd $ROOTSYS
 source bin/thisroot.sh

@@ -33,7 +33,7 @@ endif
 
 echo MIDASSYS is now $MIDASSYS
 
-setenv LD_LIBRARY_PATH $PWD/libraries:$MIDASSYS/linux/lib
+setenv LD_LIBRARY_PATH $GRSISYS/libraries:$MIDASSYS/linux/lib
 
 cd $ROOTSYS/bin
 source thisroot.csh
